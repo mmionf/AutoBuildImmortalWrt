@@ -58,6 +58,7 @@ elif [ "$count" -gt 1 ]; then
     # 设置WAN6绑定网口eth0
     uci set network.wan6=interface
     uci set network.wan6.device="$wan_ifname"
+    uci set network.wan6.proto='dhcpv6'
     # 更新LAN接口成员
     # 查找对应设备的section名称
     section=$(uci show network | awk -F '[.=]' '/\.@?device\[\d+\]\.name=.br-lan.$/ {print $2; exit}')
