@@ -36,8 +36,8 @@ else
   echo "✅ Run files copied to extra-packages:"
   ls -lh /home/build/immortalwrt/extra-packages/*.run
   # 解压并拷贝ipk到packages目录
-  sh shell/prepare-packages.sh
-  ls -lah /home/build/immortalwrt/packages/
+  # sh shell/prepare-packages.sh
+ # ls -lah /home/build/immortalwrt/packages/
   # 添加架构优先级信息
   sed -i '1i\
   arch aarch64_generic 10\n\
