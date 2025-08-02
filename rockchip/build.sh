@@ -53,7 +53,7 @@ cat repositories.conf
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES ethtool"
-PACKAGES="$PACKAGES kmod-nft-socket kmod-nft-tproxy firewall -firewall4"
+PACKAGES="$PACKAGES kmod-nft-socket kmod-nft-tproxy"
 PACKAGES="$PACKAGES kmod-usb-net-rtl8152-vendor -kmod-usb-net-rtl8152"
 PACKAGES="$PACKAGES openssh-sftp-server"
 #PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
