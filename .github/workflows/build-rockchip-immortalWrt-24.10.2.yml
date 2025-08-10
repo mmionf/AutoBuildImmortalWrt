@@ -107,7 +107,6 @@ jobs:
               --user root \
               -v "${{ github.workspace }}/bin:/home/build/immortalwrt/bin" \
               -v "${{ github.workspace }}/files/etc/uci-defaults:/home/build/immortalwrt/files/etc/uci-defaults" \
-              -v "${{ github.workspace }}/files/etc/hotplug.d/iface/12-disable-rk3328-eth-offloading:/home/build/immortalwrt/files/etc/hotplug.d/iface/12-disable-rk3328-eth-offloading" \
               -v "${{ github.workspace }}/rockchip/imm.config:/home/build/immortalwrt/.config" \
               -v "${{ github.workspace }}/shell:/home/build/immortalwrt/shell" \
               -v "${{ github.workspace }}/rockchip/build.sh:/home/build/immortalwrt/build.sh" \
